@@ -1,9 +1,7 @@
-import "./Botao.css"
+import './Botao.css'
 
-export const Botao = (props) => {
-    return (
-        <button className="botao">
-            {props.children}
-        </button>
-    )
+export const Botao = ({ texto }) => {
+    return <button className="botao">
+        {texto}
+    </button>
 }
